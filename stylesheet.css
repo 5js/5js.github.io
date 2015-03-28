@@ -49,8 +49,18 @@ a:hover {
 }
 
 code {
-    background: #DBDACE;
     font-size: 20px;
+    background: #DBDACE;
+}
+
+pre > code {
+    background: inherit;
+}
+
+pre {
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-all;
 }
 
 hr {
