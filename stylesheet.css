@@ -44,6 +44,10 @@ li {
     margin: .25em 0;
 }
 
+a {
+    padding: 3px 0 1px;
+}
+
 a, a:visited {
     color: #598ABA;
 }
@@ -51,6 +55,12 @@ a, a:visited {
 a:hover {
     color: #5C94CC;
     background: #EDECDA;
+}
+
+a:focus {
+    color: #FAFAFA;
+    background: #0376DE;
+    text-decoration: none;
 }
 
 code {
@@ -63,9 +73,10 @@ pre > code {
 }
 
 pre {
-    width: 100%;
+    font-size: 20px;
     white-space: pre-wrap;
     word-break: break-all;
+    margin: 1.75em 0;
 }
 
 hr {
